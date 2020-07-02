@@ -1,0 +1,155 @@
+body{
+	background: #4a4a4a;
+	margin: 0;
+}
+
+header{
+	background: #1e90ff;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding: 0;
+}
+
+.headings{
+	margin-left: 130px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-family: "Poppins";
+}
+
+.headings h5{
+	background: red;
+	color: white;
+	width: 90px;
+	margin-bottom: 0;
+	margin-top:0;
+}
+
+.headings h1{
+	background: red;
+	color: white;
+	width: 85px;
+
+}
+
+#nav {
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 20px;
+	padding: 0px;
+}
+
+#nav ul{
+	border: dotted 2px blue;
+	text-align: center;
+	background: white;
+	
+
+}
+
+#nav ul li{
+	display: inline;
+	font-family: Anton;
+}
+
+#nav li{
+	padding: 50px;
+	font-style: bold;
+}
+#nav a{
+	text-decoration: none;
+	color: red
+
+}
+
+.container{
+	background: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: Poppins;
+	padding-bottom: 50px;
+}
+
+.content{
+	padding: 60px;
+}
+
+.face{
+	float: right;
+	clear: right;
+}
+.highlight{
+	color: #00ffff;
+	font-size: 30px;
+}
+
+.construct{
+	border-top: 2px solid grey;
+	margin-bottom:40px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.construct a{
+	background: #2e8b57;
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 9px;	
+	padding: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+.construct a:hover{
+	background: white;
+	color: rgb(30 70 120);
+}
+
+.maingrid{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	justify-content: space-around;
+}
+
+.footer{
+	background: #1e90ff;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Poppins;
+	text-align: center;
+}
+
+
+section{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0;
+	border-top: 20px;
+}
+
+.footer ul{
+	list-style: none;
+	margin: 0px;
+	font-size: 11px;
+}
+
+
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover{
+	background: #4169e1;
+	color: black;
+}
+
+.footer p{
+	font-size: 7px;
+	text-align: right;
+}
